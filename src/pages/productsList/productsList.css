@@ -1,29 +1,33 @@
-.userList{
+.productsList {
     flex: 4;
     padding: 20px;
 }
-.userListUser{
+
+.productListUser {
     display: flex;
     align-items: center;
 }
-.userListImg{
+
+.productListImg {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
 }
-.userListEdit{
+
+.productListEdit {
     border-radius: 10px;
     border: none;
     padding: 5px 10px;
     background-color: darkblue;
-    color: white ;
+    color: white;
     cursor: pointer;
     margin-right: 12px;
 
 }
-.userListDelete{
-    color: red;
+
+.productListDelete {
+    color: rgb(202, 49, 49);
     font-size: 20px;
 }

@@ -8,5 +8,9 @@ display: flex;
     margin-top: 12px;
     /* background-color: aquamarine; */
 }
+.link{
+    text-decoration: none;
+    color: inherit;
+}
 
 
